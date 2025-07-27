@@ -1,0 +1,30 @@
+
+
+GRESKA / error:
+
+
+
+-  Nije prikazivao sve stikere nego samo poslednji, sa <c:forEach
+	Prepravljeno. dodali smo geter getRandomSticker() u Product.java
+	
+	
+	
+
+1. ne prikazuje slike na /admin/product-list
+  ali na /homepage prikazuje.
+  
+
+
+
+1.
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class
+
+	Reseno:
+		Promenjeno u 
+		properties > JavaCompiler > Compiler Compliance level = 1.8 (bilo je 17)
+
+2. Nije reagovao na promene sa srtanice /homepage.jsp,
+	posle restarta radi.
+	
+	
+	
